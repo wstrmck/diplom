@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="assets/css/log.css">
+</head>
+
+<body>
+    <div class="main">
+        <form action="reg.php" method="post">
+
+            <label for="login">Логин</label>
+            <input type="text" name="login" class="form-control" placeholder="Введите логин" required>
+
+            <label for="pass">Пароль</label>
+            <input type="text" name="pass" class="form-control" placeholder="Введите пароль" required>
+
+            <label for="fio">ФИО</label>
+            <input type="text" name="fio" class="form-control" placeholder="Введите ФИО" required>
+
+            <label for="telephone">Телефон</label>
+            <input type="tel" name="phone" class="form-control" placeholder="Введите свой номер телефона" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" class="form-control" placeholder="Введите свой email" required>
+
+            <button type="submit" name="registration">Зарегистрироваться</button>
+
+            <p>Есть аккаунт? <a href="auth.html">Авторизация</a></p>
+
+        </form>
+    </div>
+</body>
+
+</html>
