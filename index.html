@@ -48,18 +48,6 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="btn-group">
-                                    <div class="dropdown">
-                                        <button class="btn btn-sm dropdown-toggle" type="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            EN
-                                        </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">RU</a></li>
-                                            <li><a class="dropdown-item" href="#">DE</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
                             </div><!--./header-top-account-->
                         </div>
                     </div>
@@ -102,23 +90,60 @@
             <!-- header-middle-->
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasCart" aria-labelledby="offcanvasCartLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasCartLabel">Корзина</h5>
+                    <h5 class="offcanvas-title" id="offcanvasCartLabel">Cart</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                    <div>
-                        Some text as placeholder. In real life you can have the elements you have
-                        chosen. Like, text, images, lists, etc.
+                    <div class="table-responsive">
+                        <table class="table offcanvasCart-table">
+                            <tbody>
+                                <tr>
+                                    <td class="product-img-td"><a href="#"><img src="assets/img/products/1.jpg"
+                                                alt=""></a>
+                                    </td>
+                                    <td><a href="#">Product 1 Lorem ipsum dolor, sit amet consectetur adipisicing.</a>
+                                    </td>
+                                    <td>$65</td>
+                                    <td>&times;1</td>
+                                    <td><button class="btn btn-danger"><i
+                                                class="fa-regular fa-circle-xmark"></i></button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="product-img-td"><a href="#"><img src="assets/img/products/2.jpg"
+                                                alt=""></a>
+                                    </td>
+                                    <td><a href="#">Product 2</a></td>
+                                    <td>$80</td>
+                                    <td>&times;2</td>
+                                    <td><button class="btn btn-danger"><i
+                                                class="fa-regular fa-circle-xmark"></i></button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="product-img-td"><a href="#"><img src="assets/img/products/3.jpg"
+                                                alt=""></a>
+                                    </td>
+                                    <td><a href="#">Product 3</a></td>
+                                    <td>$100</td>
+                                    <td>&times;1</td>
+                                    <td><button class="btn btn-danger"><i
+                                                class="fa-regular fa-circle-xmark"></i></button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="4" class="text-end">Total:</td>
+                                    <td>$325</td>
+                                </tr>
+                            </tfoot>
+                        </table>
                     </div>
-                    <div class="dropdown mt-3">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                            Dropdown button
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+
+                    <div class="text-end mt-3">
+                        <a href="cart.html" class="btn btn-outline-warning">Корзина</a>
+                        <a href="checkout.html" class="btn btn-outline-secondary">К оформлению</a>
                     </div>
                 </div>
             </div>
@@ -149,15 +174,17 @@
                                         Каталог
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Персональные компьютеры</a></li>
-                                        <li><a class="dropdown-item" href="#">Комплектующие и аксессуары</a></li>
-                                        <li><a class="dropdown-item" href="#">Ноутбуки</a></li>
-                                        <li><a class="dropdown-item" href="#">Мониторы</a></li>
-                                        <li><a class="dropdown-item" href="#">Принтеры</a></li>
+                                        <li><a class="dropdown-item" href="catalog.html">Персональные компьютеры</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="catalog.html">Комплектующие и аксессуары</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="catalog.html">Ноутбуки</a></li>
+                                        <li><a class="dropdown-item" href="catalog.html">Мониторы</a></li>
+                                        <li><a class="dropdown-item" href="catalog.html">Принтеры</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">О нас</a>
+                                    <a class="nav-link" href="about us.html">О нас</a>
                                 </li>
                             </ul>
                         </div>
