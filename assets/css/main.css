@@ -98,6 +98,8 @@ section {
 .section-title span {
     background-color: var(--bg-color);
     padding: 1rem;
+    position: relative;
+    z-index: 1;
 }
 
 .section-title::after {
@@ -107,7 +109,6 @@ section {
     top: 50%;
     left: 0;
     border-top: 1px dashed var(--text-color);
-    z-index: -1;
 }
 
 /*=================Header=================== */
@@ -298,7 +299,7 @@ ul.social-icons a:hover {
 }
 
 .product-thumb img {
-    max-height: 250px;
+    height: 250px;
 }
 
 .product-details {
@@ -354,8 +355,65 @@ ul.social-icons a:hover {
 
 /*=================Featured products=================== */
 
+/*=================About us=================== */
+
+.about-us {
+    background-color: #fff;
+}
+
+.about-us .section-title span {
+    background-color: #fff;
+}
+
+/*=================About us=================== */
 
 /*=================Main=================== */
+
+/*=================Footer=================== */
+
+footer {
+    background-color: var(--contrast-color);
+    padding: 50px 0;
+    color: #fff;
+    text-align: center;
+}
+
+footer h4 {
+    color: var(--accent-color);
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+footer a:hover {
+    color: var(--accent-color);
+}
+
+/*=================Footer=================== */
+
+#top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--accent-color);
+    opacity: .5;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 0;
+    font-size: 25px;
+    transition: all .5s;
+    z-index: 10;
+    display: none;
+}
+
+#top:hover {
+    opacity: 1;
+}
 
 @media only screen and (min-width: 992px) {
     .header-bottom .navbar .dropdown-menu {
