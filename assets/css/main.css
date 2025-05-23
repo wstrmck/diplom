@@ -53,7 +53,7 @@ img {
 }
 
 .bg-warning {
-    background-color: var(--accent-color) !important;
+    background-color: var(--accent-color);
 }
 
 .btn-outline-warning:hover {
@@ -216,14 +216,17 @@ ul.social-icons a:hover {
 
 /*=================Main=================== */
 
+
+
 /*=================Carousel=================== */
+
 
 .carousel-caption {
     text-shadow: 0 0 2px rgba(0, 0, 0, 1);
 }
 
 .carousel-caption p {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 /*=================Carousel=================== */
@@ -366,6 +369,167 @@ ul.social-icons a:hover {
 }
 
 /*=================About us=================== */
+
+/* ============================= Category Page ============================ */
+.breadcrumbs {
+    margin: 30px 0;
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.breadcrumbs ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: var(--contrast-color);
+    transition: all .5s;
+    margin-right: 0.5rem;
+}
+
+.breadcrumbs a:hover {
+    color: var(--accent-color);
+}
+
+.breadcrumbs a::after {
+    content: "/";
+    padding-left: 0.5rem;
+    color: var(--contrast-color);
+}
+
+.sidebar {
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.filter-block:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.filter-block .form-check {
+    margin-bottom: 0.5rem;
+}
+
+.form-check-input[type="checkbox"] {
+    border-radius: 0;
+    border-color: var(--gray-color);
+}
+
+.form-check-input:focus {
+    border-color: var(--gray-color);
+    box-shadow: none;
+}
+
+.form-check-input:checked {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.filter-block .badge {
+    color: var(--text-color);
+}
+
+.page-link {
+    color: var(--contrast-color);
+}
+
+.page-link:hover {
+    color: #fff;
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.active>.page-link,
+.page-link.active {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.sidebar .collapse-filters-btn {
+    color: var(--contrast-color);
+}
+
+/* ============================= Category Page ============================ */
+
+
+/* ============================= Product Page ============================ */
+
+.product-content .product-price {
+    font-size: 25px;
+}
+
+.product-content .input-group {
+    width: 250px;
+}
+
+.product-content .card i {
+    color: var(--accent-color);
+}
+
+.product-content .card {
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.product-content .card ul li::before {
+    content: "\f105";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.nav-tabs .nav-link {
+    border-radius: 0;
+    color: var(--contrast-color);
+}
+
+.tab-content {
+    padding-top: 20px;
+}
+
+/* ============================= Product Page ============================ */
+
+
+/* ============================= Cart Page ============================ */
+.cart-content table img {
+    max-width: 50px;
+}
+
+.cart-content table th {
+    text-align: center;
+}
+
+.cart-content table td {
+    padding: 1rem;
+}
+
+.cart-content-title {
+    text-decoration: none;
+    display: block;
+}
+
+.cart-qty {
+    width: 70px;
+}
+
+.cart-summary h3 {
+    color: #000;
+}
+
+.cart-summary .btn {
+    padding: 1rem;
+}
+
+#checkoutForm {
+    position: relative;
+}
+
+/* ============================= Cart Page ============================ */
 
 /*=================Main=================== */
 
